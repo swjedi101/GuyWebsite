@@ -1,0 +1,243 @@
+/*
+*  photogal website css file 
+*/
+
+html {
+      overflow: -moz-scrollbars-vertical; 
+      overflow-x: auto;
+}
+
+body {
+	/*text-align: center;	*//* MSIE 5 doesn't center based on auto left/right margins, 
+        				   but 'text-align:center' does center top-level divs: */
+	min-width: 950px;       /* Specify a min-width for the body as wide as the 'wrapper'
+        	                     element itself. This prevents negative (i.e. inaccessible)
+                                 left-margins in narrow browser windows when using 
+                        	   Navigator 6+/Mozilla on Win32: */
+	margin: 0;
+	padding: 0;
+	background: tan;
+  font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12pt;
+  color: #222;
+}
+
+body a {
+      text-decoration: none;
+      color: #aa5500;
+}
+
+input, textarea {
+      padding:0.3em;
+}
+
+table
+{
+      border-collapse: collapse;
+      border-color: #eeeeee;
+}
+
+td, th
+{
+      border-collapse: collapse;
+      border-color: #eeeeee;
+      margin: 0;
+/*      padding: 4px;    */
+}
+
+
+/*
+* Pasted in from Magicwing 4/25/21
+*/
+
+#wrapper {
+    width: 980px;
+/*    min-height: 700px;   */
+    margin: 10px auto 10px auto;
+/*    background: url(graphics/back.gif);  */
+    background-repeat: repeat-y;
+/*    border: 1px solid #fff;  */
+}
+
+#header {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 980px;
+    height: 220px;
+    background: #fff;  
+    background-repeat: no-repeat;
+}
+
+#leftside {
+  width: 180px;
+  float: left;
+}
+
+#content {
+  float: right;
+  width: 760px;
+  margin: 0;
+  padding: 0px 20px 15px 20px;
+  background: #fff;  
+  text-align: left;
+  /*border-left: 1px solid #020;*/
+}
+
+#footer {
+  background-image: url(graphics/concretebg.jpg);
+  margin: 0 0 0 0;
+  padding: 5px 0px 5px 0px;
+  width: 980px;
+  height: 20px;
+  font-size: 14px;
+  clear: both;
+/*  background: #eee;  */
+}
+
+h1 {
+      margin: 0;
+}
+
+
+/*********************** left menu *****************************/
+
+#leftmenu {
+      margin: 15px 0 5px 15px;
+      padding: 0 0 10px 0px;
+      width: 150px;
+/*      min-height: 370px;    */
+      background-image: url(graphics/menubg.jpg);
+      background-repeat: repeat-y;   
+      background-position: top center;
+/*      background-color: #11C9FF;  */
+      text-align: left;
+}
+
+#leftmenu ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+}
+
+#leftmenu li {
+      margin: 0;
+      padding: 5px 0 5px 0;
+      font-family: Verdana;
+      font-size: 12px;
+      font-weight: bold;
+}
+
+#leftmenu a {
+      display: block;
+      color: #000;
+}
+
+#leftmenu a:hover {
+      color: #f40;
+}
+
+
+/*********** left menu - menu1 level *************************/
+
+#leftmenu li.menu1 {
+      text-align: left;
+      padding-left: 10px;
+}
+
+#leftmenu li.menu1:hover {
+}
+
+#leftmenu li.menu1 a {
+      margin: 0;
+}
+
+#leftmenu li.menu1#selected {
+/*      border: 1px solid #888888;  */
+      background-color: #eee;
+}
+
+
+/*********** left menu - menu2 level *************************/
+
+#leftmenu li.menu2 {
+      text-align: left;
+      padding-left: 25px;
+}
+
+#leftmenu li.menu2 a {
+}
+
+#leftmenu li.menu2#selected {
+/*      background-color: #fff;  */
+      border: 1px solid #888888;
+}
+
+/*********** left menu - menu3 level *************************/
+
+#leftmenu li.menu3 {
+      background: #fff;
+}
+
+#leftmenu li.menu3 a {
+      padding-left: 30px;
+}
+
+#leftmenu li.menu3select {
+      background: #fff;
+      border: 1px solid #000;
+}
+
+#leftmenu li.menu3select a {
+      padding-left: 30px;
+}
+
+
+/*********** pagetitle, etc *************************/
+
+
+p.pagetitle {
+/*      text-align: center; */
+	margin: 0 0 0 0;
+    padding: 0 0 0 0;
+	color: #000000;
+	line-height: 1em;
+	font-size: larger; 
+	font-weight: normal;
+}
+
+/******************* credits *******************/
+
+#credits {
+  margin: 0px auto 0 auto;
+  padding: 0;
+  width: 950px;
+  font-family: arial;
+  font-size: 12px;    
+  line-height: 1.0em; 
+  text-align: center;
+}
+
+#credits a {
+  color: #000;
+}
+
+#credits #creditsleft {
+  float: left;
+  text-align: left;
+  width: 475px;
+  color: #000;
+}
+#credits #creditsright {
+  float: right;
+  width: 475px;
+  text-align: right;
+  color: #000;
+}
+
+
+
+
+/* IE 6 hack to push footer below content */
+* html #footer {
+	height: 1px;
+}

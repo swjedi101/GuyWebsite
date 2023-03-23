@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 22 Mar 2023 19:49:54 at http://guyswanson.com/HomePage.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*[name].*[name]guyswanson*[name].*[name]/*
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://guyswanson.com/HomePage.html -O1 "I:\Guy Website\guy website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*[name].*[name]guyswanson*[name].*[name]/* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:49:54	Warning: 	Note: due to guyswanson.com remote robots.txt rules, links beginning with these path will be forbidden: /rob/no (see in the options to disable this)
+19:50:04	Warning: 	Note: due to www.guyswanson.com remote robots.txt rules, links beginning with these path will be forbidden: /rob/no (see in the options to disable this)
+19:50:08	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/SendMeanemail.html (from guyswanson.com/HomePage.html)
+19:50:10	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/Search.html (from guyswanson.com/HomePage.html)
+19:50:10	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/TheStoryofHopeNance.html (from guyswanson.com/HomePage.html)
+19:50:17	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/TheAgateJeffersonCountyHistoricalSociety.html (from guyswanson.com/HomePage.html)
+19:50:17	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/3RiversRanchThestoryofHarryHeising.html (from guyswanson.com/HomePage.html)
+19:51:20	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/5034.jpg (from guyswanson.com/HomePage.html)
+19:51:21	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/menubg.jpg (from www.guyswanson.com/photogal.css)
+19:51:42	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/3904.jpg (from www.guyswanson.com/About.html)
+19:51:45	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/3905.JPG (from www.guyswanson.com/About.html)
+19:51:45	Warning: 	Note: due to www.northwestmall.com remote robots.txt rules, links beginning with these path will be forbidden: /includes, /admin, /test15, /test20, /security, /develop, /testphp, /source, /convert_videos.ihtml, /emailcampaignb.ihtml, /errhandler.ihtml, /header.ihtml, /footer.ihtml, /ibppe.ihtml, /noerror.ihtml, /noexist.ihtml, /version.ihtml (see in the options to disable this)
+19:51:45	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/83433.jpg (from www.guyswanson.com/MailingListSignup.html)
+19:51:54	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/masthead1.jpg (from www.guyswanson.com/3RiversArticles.html)
+19:52:01	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/FindingHopeAHomesteadersStory.html (from www.guyswanson.com/3RiversArticles.html)
+19:52:02	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/TheStoryofBillyChinook.html (from www.guyswanson.com/3RiversArticles.html)
+19:52:04	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/NoWaterforGrandview.html (from www.guyswanson.com/3RiversArticles.html)
+19:52:06	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/ThestoryofHarryHeising.html (from www.guyswanson.com/3RiversArticles.html)
+19:52:07	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/WhoShotYa.html (from www.guyswanson.com/3RiversArticles.html)
+19:52:27	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/4902.JPG (from www.guyswanson.com/DepressionEraPhotographs.html)
+19:52:29	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/4884.JPG (from www.guyswanson.com/DepressionEraPhotographs.html)
+19:52:32	Error: 	"Not Found" (404) at link www.guyswanson.com/83433.jpg (from www.guyswanson.com/MailingListSignup.html)
+19:54:58	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/masthead1.jpg (from www.guyswanson.com/3RiversArticles.html)
+19:55:11	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/TheStoryofBillyChinook.html (from www.guyswanson.com/3RiversArticles.html)
+19:55:12	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/4873.JPG (from www.guyswanson.com/CovePalisadesPark.html)
+19:55:22	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/WhoShotYa.html (from www.guyswanson.com/3RiversArticles.html)
+19:55:24	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/4850.JPG (from www.guyswanson.com/NoWaterforGrandview.html)
+19:55:55	Warning: 	Retry after error -4 (No data (connection closed)) at link www.guyswanson.com/graphics/4846.jpg (from www.guyswanson.com/TheStoryofBillyChinook.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 8 seconds : 173 links scanned, 145 files written (9782378 bytes overall), 137 files updated [9609232 bytes received at 26112 bytes/sec], 1.4 requests per connection
+(1 errors, 27 warnings, 0 messages)
